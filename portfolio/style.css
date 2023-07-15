@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@1,300&family=Maven+Pro:wght@500&family=Pangolin&family=Poppins:wght@400;500&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@1,300&family=Maven+Pro:wght@500&family=Pangolin&family=Poppins:wght@400;500&family=Roboto:wght@100&family=Source+Code+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(194, 189, 189);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding: 30px 0;
+}
+.main{
+   /* background-color: yellow;*/
+    width: 84vw;
+    height: 100vh;
+    padding: 23px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: rgb(108, 8, 109);*/
+    height: 65vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devpic img{
+    height: 65vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.hello{
+    font-size: 54px;
+}
+.name{
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.moreabout{
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+    
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgb(29, 29, 38);
+    color: white;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color:black;
+    background-color: rgb(226, 237, 237);
+}
+.contactform{
+
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.contactform form div button{
+    width: 74px;
+    height: 32px;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 9px;
+}
+.contactform form div button:hover{
+    background-color: white;
+    color: black;
+}
+.blogitem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.btn-sm{
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn-sm:hover{
+    background-color: white;
+    color: black;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+
+}
+.skill{
+    width: 223px;
+    height: 9px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 126px;
+    background-color: aquamarine;
+}
+.ts{
+    width: 75px;
+    background-color: cornflowerblue;
+}
+@media (max-width: 1615px){
+    *{
+        
+    }
+}
+   
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.cross{
+    margin-left: 250px;
+    margin-top: 5px;
+
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
